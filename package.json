@@ -1,0 +1,17 @@
+{
+  "name": "widgets",
+  "version": "1.0.0",
+  "description": "website widgets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "widgets"
+  ],
+  "author": "Eduardo Mejía",
+  "license": "ISC",
+  "dependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
