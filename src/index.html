@@ -6,8 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Features</title>
   <link rel="stylesheet" href="styles.css">
+  <script src="index.js" defer></script>
 </head>
 <body>
+  <!-- Navigation Bar -->
   <nav id="navbar1">
     <div id="navbar1Left">
       <a href="/" id="myLogo"><h1>Company Logo</h1></a>
@@ -35,6 +37,19 @@
     </div>
   </nav>
   
+  <div class="slidesContainer">
+    <div class="slides">
+      <img src="../images/html.jpg" alt="">
+    </div>
+    <div class="slides">
+      <img src="../images/css.jpg" alt="">
+    </div>
+    <div class="slides">
+      <img src="../images/javascript.png" alt="">
+    </div>
+    <button class="leftArrow" onclick="plusSlides(-1)">&#10094;</button>
+    <button class="rightArrow" onclick="plusSlides(1)">&#10095;</button>
+  </div>
 
 </body>
 </html>
