@@ -134,3 +134,65 @@ nav{
   margin-right: 10px;
   cursor: pointer;
 }
+.accordionContainer{
+  width: 50%;
+  margin: 6rem auto;
+  display: flex;
+  flex-direction: column;
+}
+.accordion{
+  text-align: center;
+  border: none;
+  background-color: blue;
+  color: white;
+  font-size: 20px;
+  padding: 1rem 0;
+  margin: 0;
+  cursor: pointer;
+  border: 1px solid white;
+}
+.accordion::after{
+  content: '\002B';
+  float: right;
+  margin-right: 20px;
+}
+.panel{
+  font-size: 18px;
+  padding: 0.5rem;
+  background-color: darkblue;
+  color: white;
+  margin: 0;
+  display: none;
+}
+.active{
+  background-color: darkcyan;
+}
+.active::after{
+  content: "\2212";
+}
+.tabsSection{
+  margin: 6rem;
+}
+.tabs{
+  background-color: blue;
+}
+.tabButton{
+  border: none;
+  color: white;
+  background-color: inherit;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 0;
+  border-right: 1px solid white;
+}
+.tabContent{
+  padding: 1rem 3rem;
+  background-color: darkblue;
+  color: white;
+}
+.activeTab{
+  background-color: darkcyan;
+  margin: 0;
+}
